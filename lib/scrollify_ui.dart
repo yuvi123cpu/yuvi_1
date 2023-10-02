@@ -365,8 +365,8 @@ class _ScrollfyUIState extends State<ScrollifyUI> {
                                 width: 400,
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
-                                    image: NetworkImage(
-                                        'https://images.axios.com/TNAxfQwRaTsOO79kkWP90O8jziw=/0x0:1920x1080/1920x1080/2019/02/20/1550680519295.jpg'
+                                    image: AssetImage(
+                                      "assets/elon.webp"
                                     ),
                                       fit:BoxFit.cover
                                   ),
